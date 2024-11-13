@@ -1,1 +1,1 @@
-conflicting content from develop by waqas
+add conflict.txt with bugfix content
