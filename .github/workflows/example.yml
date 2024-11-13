@@ -1,14 +1,18 @@
 name: Example Workflow
 
+# triggers the workflow on any push to the repository
 on: [push]
 
 jobs:
   build:
+    # specify the environment to run the job
     runs-on: ubuntu-latest
 
   steps:
+    # Checkout the latest version of the code
     - name: Checkout code
       uses: actions/checkout@v3
 
+    # runs a simple shell command
     - name: Say Hello
       run: echo "Hello, MLOps!"
