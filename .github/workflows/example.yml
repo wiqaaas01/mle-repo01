@@ -15,4 +15,4 @@ jobs:
 
       # runs a simple shell command
       - name: Say Hello
-        run:  python main.py
+        run:  echo "Hello echo"
